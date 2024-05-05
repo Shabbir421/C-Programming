@@ -20,6 +20,8 @@ class P{
 
 int main(){
   P obj(12,15);
+  P obj2=obj;
   obj.show();
+  obj2.show();    //copy of obj value in obj2
   return 0;
 }
